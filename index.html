@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Wikkiraat</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
+    </head>
+    <body>
+
+
+
+
+
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <!-- search section -->
+                <div class="col-sm-12 jumbotron text-center">
+                    <h1 class="heading">Wikiraat</h1>
+                    <p><i>Live search results from wikipedia..</i></p>
+                    <hr class="shortHr">
+                    <div class="searchBox">
+                        <input class="form-control" type="text" name="search" id="search" placeholder="Type something interesting.."> 
+                        <br><br>
+                        <button class="random btn btn-primary">Article of the day!</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-sm-offset-3 searchResults">
+                    <!-- content display -->
+                    <div id="update"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        
+        <div class="container-fluid embed-responsive embed-responsive-16by9">
+            <div class="row">
+                <iframe class="embed-responsive-item" width='1080' height='760' src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="assets/js/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
